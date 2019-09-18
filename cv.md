@@ -6,9 +6,9 @@
 * email: Natalia.Volkofff@gmail.com
 * skype: live:natalia.volkofff
 ## Summary
-I am a **self-taught Front-End Developer** with Bachelor’s Degree in *Economics*, Master's Degree in *Public Administration*, prior experience in *Financial Analysis, Mathematics, and Tutorship*. I’ve always found coding intuitive and have pushed myself to learn the most effective way to achieve a result. 
+>I am a **self-taught Front-End Developer** with Bachelor’s Degree in *Economics*, Master's Degree in *Public Administration*, prior experience in *Financial Analysis, Mathematics, and Tutorship*. I’ve always found coding intuitive and have pushed myself to learn the most effective way to achieve a result. 
 
-I’m a fast learner and can quickly integrate into a team so I can provide value to the company and the customers. 
+>I’m a fast learner and can quickly integrate into a team so I can provide value to the company and the customers. 
 
 ## Skills
 * Microsoft Office: 
@@ -184,3 +184,24 @@ const insert = (arr, i1, i2) => { // insert arr[i1] before arr[i2]
 var array = [1, 4, 2, 8, 345, 123, 43, 32, 5643, 63, 123, 43, 2, 55, 1, 234, 92];
 console.log(insertionSort(array));
 ```
+## Experience (IT related)
+* [JavaScript Clock](https://github.com/unikvozm/Projects/tree/master/JS_clock)
+* [JavaScript Palindrome Checker (HTML, CSS, JavaScript)](https://github.com/unikvozm/Projects/tree/master/Palindrome_checker)
+* [JavaScript Caesar Cipher (HTML, CSS, JavaScript)](https://github.com/unikvozm/Projects/tree/master/Caesar_cipher)
+* [JavaScript Roman Numeral Converter (HTML, CSS, JavaScript)](https://github.com/unikvozm/Projects/tree/master/roman-numerals-converter)
+* [JavaScript Cash Register (HTML, CSS, JavaScript)](https://github.com/unikvozm/Projects/tree/master/cash-register)
+* [JavaScript Calculator (HTML, CSS, JavaScript)](https://github.com/unikvozm/Projects/tree/master/Pure_JS_calculator) 
+* [Image Changing](https://github.com/unikvozm/Projects/tree/master/image_changing)
+* [Drum Kit](https://github.com/unikvozm/Projects/tree/master/drum_kit)
+* Social Media Ape (Node.js, JavaScript, Firebase, Postman, Express, busboy, React, Redux, Material-UI, …) – Pursuing 
+
+## Experience (no-IT related)
+Dates | Position | Company | Location
+------|----------|---------|---------
+Sept 2010 – Present | Tutor in Maths, Economics, Econometrics, Finance and Related Subjects | SELF-EMPLOYED | PERM (RUSSIA) + ONLINE (STUDENTS FROM RUSSIA + THE USA)
+Apr 2016 – Nov 2018 | Economist | YOU-RIGHT CONSULTING, LLC | PERM, RUSSIA
+Mar 2011 – Nov 2018 | Tutor in Maths, Economics, and Financial Management | PROFI.RU | RUSSIA
+Oct 2014 – Mar 2016 | Consultant | ONLINE-SCHOOL UMNICHKA | RUSSIA (online) 
+Oct 2010 – Dec 2013 | Economist | TEKHSTROYINVEST, LLC | PERM, RUSSIA
+Jan 2011 – Jul 2011 | Professor Assistant | NATIONAL RESEARCH UNIVERSITY – Higher School of Economics | PERM, RUSSIA
+Jul 2010 – Oct 2010 | Credit Specialist | URALSIB BANK, LLC | PERM, RUSSIA
