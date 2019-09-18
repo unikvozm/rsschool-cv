@@ -6,7 +6,9 @@
 * email: Natalia.Volkofff@gmail.com
 * skype: live:natalia.volkofff
 ## Summary
->I am a **self-taught Front-End Developer** with Bachelor’s Degree in *Economics*, Master's Degree in *Public Administration*, prior experience in *Financial Analysis, Mathematics, and Tutorship*. I’ve always found coding intuitive and have pushed myself to learn the most effective way to achieve a result. 
+>I am a **self-taught Front-End Developer** with Bachelor’s Degree in *Economics*, Master's Degree in *Public Administration*, prior experience in *Financial Analysis, Mathematics, and Tutorship*. I’ve always found coding intuitive and have pushed myself to learn the most effective way to achieve a result.
+>
+> I like working in Finance and Education fields, I consider them to be the most important part of our life. My goals are to help people with educational problems through development web applications and help financial organizations become digital.
 >
 >I’m a fast learner and can quickly integrate into a team so I can provide value to the company and the customers. 
 
@@ -229,3 +231,8 @@ Jul 2010 – Oct 2010 | Credit Specialist | URALSIB BANK, LLC | PERM, RUSSIA
 * [Operating Systems and You: Becoming a Power User, Google on Coursera, 2018](https://www.coursera.org/account/accomplishments/certificate/KJQEEFYXVTEM)
 * [The Bits and Bytes of Computer Networking, Google on Coursera, 2018](https://www.coursera.org/account/accomplishments/certificate/4WEPZYQ6PVP3)
 * [Technical Support Fundamentals, Google on Coursera, 2018](https://www.coursera.org/account/accomplishments/certificate/7C6YDKPY8JMG)
+
+## Languages
+* Russian: native language;
+* English: level C1 (IELTS Certificate 18RU002277VOLN069G);
+* German: elementary (studying Duolingvo)
