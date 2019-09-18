@@ -46,3 +46,141 @@ I’m a fast learner and can quickly integrate into a team so I can provide valu
     * STATISTICA,
     * Smart-PLS,
     * EViews
+
+## Code Examples
+### Task: No Repeats Please (freeCodeCamp)
+Return the number of total permutations of the provided string that don't have repeated consecutive letters. Assume that all characters in the provided string are each unique.
+For example, `aab` should return 2 because it has 6 total permutations (`aab`, `aab`, `aba`, `aba`, `baa`, `baa`), but only 2 of them (`aba` and `aba`) don't have the same letter (in this case a) repeating.
+
+```javascript
+function permAlone(str) {
+    if (str.length === 1) return 1; //if there's only 1 letter in a string
+    let repeated = [];
+    let strArr = str.split('');
+    strArr.sort((a,b) => a > b ? 1 : -1);
+    repeated = strArr.join('').match(/(.)\1+/ig); //all repeated substrings
+    if (repeated[0] === str) return 0; //if all letters are repeated
+    let totalN = str.length; //total number of letters in the string
+    let total = factorial(totalN); // total permutations
+    let unique = totalN; // number of unique chars
+    let invalid = 0; //number of permutations which have the same letter repeating
+    let overlap = 0; //if we have more than one repeated character
+    //iterate through each repetitions:
+    for (let i = 0; i < repeated.length; i++) {
+        let repeatedN = repeated[i].length; //number of repeated letters in substrings
+        unique -= (repeatedN - 1);
+        for (let j = 2; j <= repeatedN; j++) {
+            invalid += factorial(totalN - j + 1) * factorial(j);
+        }
+    }
+    if (repeated.length > 1) {
+        overlap = factorial(unique);
+        for (let i = 0; i < repeated.length; i++) {
+        overlap *= factorial(repeated[i].length);
+        }
+    }
+    return total - invalid + overlap;
+}
+// a handle function
+const factorial = (n) => {
+    if (n === 1) return 1;
+    else return n * factorial(n - 1);
+}
+
+// Test
+console.log(permAlone("aab")); // should return 2.
+console.log(permAlone("aaa")); // should return 0.
+console.log(permAlone("aabb")); // should return 8.
+console.log(permAlone("abcdefa")); // should return 3600.
+console.log(permAlone("abfdefa")); // should return 2640.
+console.log(permAlone("zzzzzzzz")); // should return 0.
+console.log(permAlone("a")); // should return 1.
+console.log(permAlone("aaab")); // should return 0.
+console.log(permAlone("aaabb")); // should return 12.
+```
+
+### Task: Bubble Sort (freeCodeCamp)
+The bubble sort method starts at the beginning of an unsorted array and 'bubbles up' unsorted values towards the end, iterating through the array until it is completely sorted. It does this by comparing adjacent items and swapping them if they are out of order. The method continues looping through the array until no swaps occur at which point the array is sorted.
+This method requires multiple iterations through the array and for average and worst cases has quadratic time complexity. While simple, it is usually impractical in most situations.
+Instructions: Write a function bubbleSort which takes an array of integers as input and returns an array of these integers in sorted order from least to greatest.
+
+```javascript 
+function bubbleSort(array) {
+    var swapped = true;
+    let length = array.length; // to save some time
+    while (swapped) { // keep doing unless no elements can be swapped anymore
+        swapped = false;
+        for (let i = 1; i < length; i++) {
+            if (array[i] < array[i-1]) {
+                swap(array, i-1, i);
+                swapped = true;
+            }
+        }
+    }
+    return array;
+}
+
+// handle function for swapping
+const swap = (arr, i1, i2) => {
+    let temp = arr[i1];
+    arr[i1] = arr[i2];
+    arr[i2] = temp;
+}
+
+// test array:
+console.log(bubbleSort([1, 4, 2, 8, 345, 123, 43, 32, 5643, 63, 123, 43, 2, 55, 1, 234, 92]));
+```
+
+### Task: Selection Sort (freeCodeCamp)
+Selection sort works by selecting the minimum value in a list and swapping it with the first value in the list. It then starts at the second position, selects the smallest value in the remaining list, and swaps it with the second element. It continues iterating through the list and swapping elements until it reaches the end of the list. Now the list is sorted. Selection sort has quadratic time complexity in all cases.
+Instructions: Write a function selectionSort which takes an array of integers as input and returns an array of these integers in sorted order from least to greatest.
+
+```javascript
+function selectionSort(array) {
+    let length = array.length;
+    for (let i = 0; i < length - 1; i++) { // we don't need to swap the last element
+        let min = Math.min.apply(null, array.slice(i + 1));
+        if (array[i] > min) {
+            swap(array, i, array.slice(i+1).indexOf(min) + i + 1);
+        }
+    }
+    return array;
+}
+
+// handle function for swapping
+const swap = (arr, i1, i2) => {
+    let temp = arr[i1];
+    arr[i1] = arr[i2];
+    arr[i2] = temp;
+    return arr;
+}
+// test array:
+var array = [1, 4, 2, 8, 345, 123, 43, 32, 5643, 63, 123, 43, 2, 55, 1, 234, 92];
+console.log(selectionSort(array));
+```
+
+### Task: Insertion Sort (freeCodeCamp)
+This method works by building up a sorted array at the beginning of the list. It begins the sorted array with the first element. Then it inspects the next element and swaps it backwards into the sorted array until it is in sorted position. It continues iterating through the list and swapping new items backwards into the sorted portion until it reaches the end. This algorithm has quadratic time complexity in the average and worst cases.
+Instructions: Write a function insertionSort which takes an array of integers as input and returns an array of these integers in sorted order from least to greatest.
+
+```javascript
+function insertionSort(array) {
+    let length = array.length;
+    for (let i = 1; i < length; i++) {
+        for (let j = 0; j < i; j++) {
+            if (array[i] < array[j]) {
+                array = insert(array, i, j);
+            }
+        }
+    }
+    return array;
+}
+// handle function for inserting
+const insert = (arr, i1, i2) => { // insert arr[i1] before arr[i2]
+    return arr.slice(0, i2).concat(arr[i1]).concat(arr.slice(i2, i1)).concat(arr.slice(i1 + 1));
+}
+
+// test array:
+var array = [1, 4, 2, 8, 345, 123, 43, 32, 5643, 63, 123, 43, 2, 55, 1, 234, 92];
+console.log(insertionSort(array));
+```
