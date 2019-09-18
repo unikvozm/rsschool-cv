@@ -7,7 +7,7 @@
 * skype: live:natalia.volkofff
 ## Summary
 >I am a **self-taught Front-End Developer** with Bachelor’s Degree in *Economics*, Master's Degree in *Public Administration*, prior experience in *Financial Analysis, Mathematics, and Tutorship*. I’ve always found coding intuitive and have pushed myself to learn the most effective way to achieve a result. 
-
+>
 >I’m a fast learner and can quickly integrate into a team so I can provide value to the company and the customers. 
 
 ## Skills
@@ -196,6 +196,7 @@ console.log(insertionSort(array));
 * Social Media Ape (Node.js, JavaScript, Firebase, Postman, Express, busboy, React, Redux, Material-UI, …) – Pursuing 
 
 ## Experience (no-IT related)
+> Note: sometimes I worked for 3-4 organizations at the same time.
 Dates | Position | Company | Location
 ------|----------|---------|---------
 Sept 2010 – Present | Tutor in Maths, Economics, Econometrics, Finance and Related Subjects | SELF-EMPLOYED | PERM (RUSSIA) + ONLINE (STUDENTS FROM RUSSIA + THE USA)
@@ -205,3 +206,24 @@ Oct 2014 – Mar 2016 | Consultant | ONLINE-SCHOOL UMNICHKA | RUSSIA (online)
 Oct 2010 – Dec 2013 | Economist | TEKHSTROYINVEST, LLC | PERM, RUSSIA
 Jan 2011 – Jul 2011 | Professor Assistant | NATIONAL RESEARCH UNIVERSITY – Higher School of Economics | PERM, RUSSIA
 Jul 2010 – Oct 2010 | Credit Specialist | URALSIB BANK, LLC | PERM, RUSSIA
+
+## Education
+* Master’s Degree in Public Administration, National Research University – Higher School of Economics, Perm, Russia, 2012
+* Bachelor’s Degree in Economics, National Research University – Higher School of Economics, Perm, Russia, 2010
+* Front End Libraries Certification, Quincy Larson on freeCodeCamp, Pursuing
+* Rolling Scope School - Pursuing
+* [Introduction to HTML, Codecademy, 2019](https://www.codecademy.com/profiles/unikvozm)
+* [Learn CSS, Codecademy, 2019](https://www.codecademy.com/profiles/unikvozm)
+* [Responsive Web Design, Quincy Larson on freeCodeCamp, 2019](https://www.freecodecamp.org/certification/unikvozm/responsive-web-design)
+* [JavaScript Algorithms and Data Structures, Quincy Larson on freeCodeCamp, 2019](https://www.freecodecamp.org/certification/unikvozm/javascript-algorithms-and-data-structures)
+* [JavaScript Web Programming Language – A Smarter Way to Learn, Mark Myers, 2019](http://www.asmarterwaytolearn.com/javascript-certificate-of-completion-natalia-volkova.html)
+* Excel Macros & VBA Course, Excel Developer Certification Professional Excel Certification, IACT & eLearning, 2019
+* Excel Reporting & Dashboards Course, IACT and eLearning, 2019
+* Excel Analyzing Data Course - Excel Specialist Certification / Excel Analyzing Data, IACT and eLearning, 2019
+* Excel -Top Tips Course - Certificate of Completion / Excel – Top Tips, IACT and eLearning, 2019
+* [Google IT Support Professional Certificate, Google on Coursera, 2018](https://www.coursera.org/account/accomplishments/professional-cert/certificate/SXWJBK6BAHDY)
+* [IT Security: Defense against the digital dark arts, Google on Coursera, 2018](https://www.coursera.org/account/accomplishments/certificate/GQG9VV6NY8Y3)
+* [System Administration and IT Infrastructure Services, Google on Coursera, 2018](https://www.coursera.org/account/accomplishments/certificate/QSPYBTHP6WT2)
+* [Operating Systems and You: Becoming a Power User, Google on Coursera, 2018](https://www.coursera.org/account/accomplishments/certificate/KJQEEFYXVTEM)
+* [The Bits and Bytes of Computer Networking, Google on Coursera, 2018](https://www.coursera.org/account/accomplishments/certificate/4WEPZYQ6PVP3)
+* [Technical Support Fundamentals, Google on Coursera, 2018](https://www.coursera.org/account/accomplishments/certificate/7C6YDKPY8JMG)
