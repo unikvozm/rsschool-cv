@@ -196,7 +196,7 @@ console.log(insertionSort(array));
 * Social Media Ape (Node.js, JavaScript, Firebase, Postman, Express, busboy, React, Redux, Material-UI, …) – Pursuing 
 
 ## Experience (no-IT related)
-> Note: sometimes I worked for 3-4 organizations at the same time.
+
 Dates | Position | Company | Location
 ------|----------|---------|---------
 Sept 2010 – Present | Tutor in Maths, Economics, Econometrics, Finance and Related Subjects | SELF-EMPLOYED | PERM (RUSSIA) + ONLINE (STUDENTS FROM RUSSIA + THE USA)
@@ -206,6 +206,8 @@ Oct 2014 – Mar 2016 | Consultant | ONLINE-SCHOOL UMNICHKA | RUSSIA (online)
 Oct 2010 – Dec 2013 | Economist | TEKHSTROYINVEST, LLC | PERM, RUSSIA
 Jan 2011 – Jul 2011 | Professor Assistant | NATIONAL RESEARCH UNIVERSITY – Higher School of Economics | PERM, RUSSIA
 Jul 2010 – Oct 2010 | Credit Specialist | URALSIB BANK, LLC | PERM, RUSSIA
+
+> Note: sometimes I worked for 3-4 organizations at the same time.
 
 ## Education
 * Master’s Degree in Public Administration, National Research University – Higher School of Economics, Perm, Russia, 2012
