@@ -8,7 +8,7 @@
 ## Summary
 >I am a **self-taught Front-End Developer** with Bachelor’s Degree in *Economics*, Master's Degree in *Public Administration*, prior experience in *Financial Analysis, Mathematics, and Tutorship*. I’ve always found coding intuitive and have pushed myself to learn the most effective way to achieve a result.
 >
-> I like working in Finance and Education fields, I consider them to be the most important part of our life. My goals are to help people with educational problems through development web applications and help financial organizations become digital.
+> I like working in Finance and Education fields, I consider them to be the most important part of our life. My goals are to help people with educational problems through web applications development and help financial organizations become digital.
 >
 >I’m a fast learner and can quickly integrate into a team so I can provide value to the company and the customers. 
 
@@ -42,6 +42,8 @@
 * Web-programming languages: 
     * HTML (HTML5), 
     * CSS (CSS3, Flexbox, Grid)
+* Node.js
+* Git, GitHub
 * Photoshop
 * Econometrics and Statistics software: 
     * SPSS, 
