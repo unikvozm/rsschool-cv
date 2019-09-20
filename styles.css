@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+}
+body {
+    max-width: 1024px;
+    margin: 0 auto;
+    background: linear-gradient(45deg, rgba(7, 243, 86, 0.3), rgba(248, 166, 58, 0.3));
+
+}
