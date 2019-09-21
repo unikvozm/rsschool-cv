@@ -160,3 +160,50 @@ th {
 #education ul  a {
   text-decoration: none;
 }
+footer {
+  position: relative;
+
+  display: flex;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 10px;
+
+  color: #140957;
+  background-color: rgb(109, 203, 247);
+
+}
+footer:before {
+  position: absolute;
+  left: 0;
+  bottom: 100%;
+
+  border-bottom: 10px solid  rgb(109, 203, 247);
+  border-right: 10px solid  rgb(109, 203, 247);
+  border-left: 10px solid transparent;
+  border-top: 10px solid transparent;
+
+  content: "";
+
+}
+footer:after {
+  position: absolute;
+  right: 0;
+  bottom: 100%;
+
+  border-bottom: 10px solid  rgb(109, 203, 247);
+  border-left: 10px solid  rgb(109, 203, 247);
+  border-right: 10px solid transparent;
+  border-top: 10px solid transparent;
+
+  content: "";
+}
+footer ul {
+  list-style: none;
+}
+footer ul li {
+  font-size: 20px;
+  font-weight: 900;
+}
+.icon {
+  height: 30px;
+}
