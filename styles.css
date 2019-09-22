@@ -2,16 +2,17 @@
   margin: 0;
   padding: 0;
 }
+
 body {
-  max-width: 1024px;
   box-sizing: border-box;
+  max-width: 1024px;
   margin: 0 auto;
 
-  -webkit-box-shadow: 0px 15px 50px -2px rgba(0,0,0,0.56);
-  -moz-box-shadow: 0px 15px 50px -2px rgba(0,0,0,0.56);
-  box-shadow: 0px 15px 50px -2px rgba(0,0,0,0.56);
-  font-family: Garamond, Georgia, serif;
+  font-family: "Garamond", "Georgia", serif;
+
+  box-shadow: 0 15px 50px -2px rgba(0, 0, 0, 0.56);
 }
+
 nav {
   position: relative;
 
@@ -22,26 +23,30 @@ nav {
   padding: 10px;
 
   color: #140957;
+
   background-color: rgb(109, 203, 247);
   opacity: 1;
 }
+
 .logo {
-  height: 65px;
   border-radius: 20%;
 }
+
 nav ul {
   display: inline-block;
+
   vertical-align: center;
   text-align: center;
 }
+
 nav li {
   display: inline;
   margin: 5px;
 
-  text-align: center;
-
   list-style: none;
+  text-align: center;
 }
+
 nav li a {
   display: block;
   float: left;
@@ -50,116 +55,143 @@ nav li a {
   font-weight: 900;
   font-size: 14px;
   line-height: 20px;
-  letter-spacing: 1px;
   text-transform: uppercase;
-
   text-decoration: none;
+  letter-spacing: 1px;
 }
+
 a:visited {
-  color: #720b8b
+  color: #720b8b;
 }
+
 a:hover {
   background-color: rgb(41, 145, 230);
   opacity: 0.7;
 
   transition: 0.5s;
 }
-nav:before {
+
+nav::before {
+  content: "";
   position: absolute;
-  left: 0;
   top: 100%;
+  left: 0;
 
   border-top: 10px solid  rgb(109, 203, 247);
   border-right: 10px solid  rgb(109, 203, 247);
-  border-left: 10px solid transparent;
   border-bottom: 10px solid transparent;
-
-  content: "";
-
+  border-left: 10px solid transparent;
 }
-nav:after {
+
+nav::after {
+  content: "";
   position: absolute;
-  right: 0;
   top: 100%;
+  right: 0;
 
   border-top: 10px solid  rgb(109, 203, 247);
-  border-left: 10px solid  rgb(109, 203, 247);
   border-right: 10px solid transparent;
   border-bottom: 10px solid transparent;
-
-  content: "";
+  border-left: 10px solid  rgb(109, 203, 247);
 }
+
 main {
   margin: 60px 20px 20px 20px;
 
   font-size: 20px;
-
 }
+
 h1 {
   margin: 20px;
-  text-align: center;
+
   font-size: 32px;
+  text-align: center;
 }
 
 p {
   padding-top: 20px;
+
   text-align: justify;
 }
+
 .link-top {
-  font-size: 14px;
-  background-color: rgb(109, 203, 247);
-  text-decoration: none;
-  padding: 5px;
   margin: 10px;
+  padding: 5px;
+
+  font-size: 14px;
+  text-decoration: none;
+
+  background-color: rgb(109, 203, 247);
 }
-h2, h3 {
+
+h2,
+h3 {
   margin: 20px;
 }
 
 .skills-container {
   display: grid;
-  margin: 0 20px;
-  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
   align-items: top;
+  margin: 0 20px;
+
+  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
 }
+
 .gr {
   padding: 10px;
 }
+
 .code-container {
   display: grid;
-  grid-template: 1fr / repeat(2, 1fr);
   align-items: end;
+
   grid-gap: 20px;
+  grid-template: 1fr / repeat(2, 1fr);
 }
+
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  align-items: end;
+
   grid-auto-rows: 300px;
   grid-gap: 20px;
-  align-items: end;
+  grid-template-columns: repeat(3, 1fr);
 }
+
 h4 {
-  text-align: center;
   margin-bottom: 10px;
+
+  text-align: center;
 }
+
 table {
   border: 1px solid grey;
 }
-th, td {
-  border: 1px solid grey;
-  text-align: center;
+
+th,
+td {
   padding: 4px;
+
+  text-align: center;
+
+  border: 1px solid grey;
 }
+
 th {
-  background-color:  rgb(109, 203, 247)
+  background-color: rgb(109, 203, 247);
 }
-#education > ul, ol {
+
+ul,
+ol {
   margin: 20px;
+
   line-height: 25px;
 }
-#education ul  a {
+
+ul a {
   text-decoration: none;
 }
+
 footer {
   position: relative;
 
@@ -169,41 +201,39 @@ footer {
   padding: 10px;
 
   color: #140957;
+
   background-color: rgb(109, 203, 247);
-
 }
-footer:before {
-  position: absolute;
-  left: 0;
-  bottom: 100%;
 
-  border-bottom: 10px solid  rgb(109, 203, 247);
-  border-right: 10px solid  rgb(109, 203, 247);
-  border-left: 10px solid transparent;
-  border-top: 10px solid transparent;
-
+footer::before {
   content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 0;
 
+  border-top: 10px solid transparent;
+  border-right: 10px solid  rgb(109, 203, 247);
+  border-bottom: 10px solid  rgb(109, 203, 247);
+  border-left: 10px solid transparent;
 }
-footer:after {
+
+footer::after {
+  content: "";
   position: absolute;
   right: 0;
   bottom: 100%;
 
+  border-top: 10px solid transparent;
+  border-right: 10px solid transparent;
   border-bottom: 10px solid  rgb(109, 203, 247);
   border-left: 10px solid  rgb(109, 203, 247);
-  border-right: 10px solid transparent;
-  border-top: 10px solid transparent;
-
-  content: "";
 }
+
 footer ul {
   list-style: none;
 }
+
 footer ul li {
-  font-size: 20px;
   font-weight: 900;
-}
-.icon {
-  height: 30px;
+  font-size: 20px;
 }
