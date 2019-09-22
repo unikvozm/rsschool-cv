@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+html {
+  box-sizing: border-box;
+}
 
 body {
   box-sizing: border-box;
@@ -181,14 +184,14 @@ th {
   background-color: rgb(109, 203, 247);
 }
 
-ul,
+ul.education,
 ol {
   margin: 20px;
 
   line-height: 25px;
 }
 
-ul a {
+ul.education a {
   text-decoration: none;
 }
 
